@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #666;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+}
+
+.container .image-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.container .image-group .image {
+    border: 10px solid #eee;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .image-group .image:hover {
+    box-shadow: -5px 5px 5px gray;
+}
+.container .image-group .image:hover img {
+    transform: scale(1.1);
+    object-position: bottom;
+}
+
+.container .image-group .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    transition: 1.2s;
+}
+
+.container .image-group .image .desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,.7) 50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 0.3s;
+}
+
+.container .image-group .image:hover .desc {
+    transform: scaleY(1);
+}
+
+@media (max-width:400px) {
+    .container .image-group .image {
+        border: 5px solid #eee;
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (min-width:411px) and (max-width: 899px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .image-group .image {
+        border: 5px solid #eee;
+        width: 45%;
+        height: 45vw;
+    }
+}
