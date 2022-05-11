@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container .image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+    /*height: 210px;*/
+}
+
+.container .image-container .image {
+    height:fit-content;
+    width: auto;
+    border: 6px solid #fff;
+    box-shadow: 0 5px 15px regb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .image-container .direccional {
+    width: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px regb(0,0,0,.1);
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.container .image-container .image:hover img {
+    transform: scale(1.2);
+}
+
+.container .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .popup-image img {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+/*****Panel*****/
+.container .panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container .panel .principal {
+    height: 60vh;
+    width: 100vw;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px regb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .panel .principal img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: .2s linear;
+}
+/************/
+
+@media (max-width: 768px) {
+    .container .popup-image img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 434px) {
+    .container .image-container .image {
+        height: 170px;
+        width: 45%;
+    }
+}
