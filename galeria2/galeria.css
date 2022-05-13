@@ -23,14 +23,15 @@
 .container .image-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 15px;
     justify-content: center;
     padding: 10px;
 }
 
 .container .image-container .image {
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: auto;
     border: 10px solid #fff;
     box-shadow: 0 5px 15px regb(0,0,0,.1);
     overflow: hidden;
