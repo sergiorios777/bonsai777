@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper brown darken-1">
+                    <a href="#!" class="brand-logo">Bonsai777</a>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="www.bonsai777.com"><i class="material-icons left">home</i>Inicio</a></li>
+                        <li hidden><a href="">Precios <span class="new badge">1</span></a></li>
+                        <li><a href="#">Acerca de Bonsai777</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="nav-mobile">
+                <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                <li><a href="">Precios <span class="new badge">1</span></a></li>
+                <li><a href="#">Acerca de Bonsai777</a></li>
+              </ul>
+        </div>
+        <div class="row">
+            <div class="col s12 m10 l8">
+                <h1>Adivina el número</h1>
+                <p class="flow-text">Tienes 10 intentos para adivinar el número. Ingresa un número entre 1 y 100 y haz clic en el botón 'Enviar intento'.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m10 l8">
+                <div class="row">
+                    <label for="guessField">Ingrese un número (del 1 al 100): </label>
+                    <input type="text" id="guessField" class="guessField"> 
+                </div>
+                <div class="row" id="formulario">
+                    <input type="submit" value="Enviar intento" class="guessSubmit btn">
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+                <div class="resultParas">
+                    <p class="guesses"></p>
+                    <p class="lastResult"></p>
+                    <p class="lowOrHi"></p>
+                </div>
+        </div>
+        <div class="row">
+            <div class=" col s12 m10 l8">
+                <a class="btn" href="https://www.bonsai777.com/">Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);  //options
+        });
+    </script>
+    
+    <script src="js/adivina.js"></script>
+
+</body>
+</html>

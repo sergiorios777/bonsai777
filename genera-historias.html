@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de historias tontas</title>
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  </head>
+    
+  <body>
+    <div class="container">
+      <div class="row">
+        <nav>
+            <div class="nav-wrapper brown darken-1">
+                <a href="#!" class="brand-logo">Bonsai777</a>
+                <a href="www.bonsai777.com" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li hidden><a href="">Precios <span class="new badge">1</span></a></li>
+                    <li><a href="#">Acerca de Bonsai777</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="nav-mobile">
+            <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+            <li><a href="">Precios <span class="new badge">1</span></a></li>
+            <li><a href="#">Acerca de Bonsai777</a></li>
+          </ul>
+    </div>
+      <div class="row">
+        <div>
+          <h1>Generador de historias absurdas</h1>
+        <p>Indique un nombre y seleccione un sistema de medida, luego haga clic en el botón 'Generar historia aleatoria'</p>
+        </div>
+        
+        <div class="col s12 m10 l8">
+          <div>
+            <label for="customname">Ingrese un nombre:</label>
+            <input id="customname" class="form-control" type="text" placeholder="">
+          </div>
+          <div >
+            <label for="us" class="form-check-label">
+              <input id="us" class="form-check-input" type="radio" name="ukus" value="us" checked>
+              <span>Imperial</span>
+            </label>
+            
+          </div>
+          <div>
+            <label for="uk" class="form-check-label">
+              <input id="uk" class="form-check-input" type="radio" name="ukus" value="uk">
+              <span>Métrico</span>
+            </label>
+            
+          </div>
+          <div>
+            <button class="btn randomize">Generar historia aleatoria</button>
+          </div>
+          <div class="card">
+              <div class="card-content">
+                <span class="card-title"></span>
+                <p class="story card-text"></p>
+              </div>
+          </div>
+        </div>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+      </div>
+      <div class="divider"></div>
+      <div class="row ">
+        <div class="col s12 m10 l8">
+            <a class="btn" href="https://www.bonsai777.com/">Volver al inicio</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);  //options
+        });
+    </script>
+
+    <script src="js/silly-story.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {"id": 1, "final": false, "texto": "Elementos móviles - N, P , K, Mg"}, 
+    {"id": 2, "final": false, "texto": "Elementos parcialmente móviles - S, Mo"}, 
+    {"id": 3, "final": false, "texto": "Elementos inmóviles - Ca, Fe, Mn, Zn, Cu, B"},
+    {"id": 11, "final": false, "texto": "Pueder ser Nitrógeno (N), Fósforo (P) o Magnesio (Mg)"}, 
+    {"id": 12, "final": true, "texto": "Deficiencia de Potasio - K"}, 
+    {"id": 21, "final": true, "texto": "Deficiencia de Azufre - S"}, 
+    {"id": 22, "final": true, "texto": "Deficiencia de Molibdeno - Mo"}, 
+    {"id": 31, "final": false, "texto": "Puede ser Manganeso (Mn) o Hierro (Fe)"}, 
+    {"id": 32, "final": false, "texto": "Puede ser Calcio (Ca) o Boro (B)"}, 
+    {"id": 33, "final": false, "texto": "Puede ser Cobre (Cu) o Zinc (Zn)"},
+    {"id": 111, "final": false, "texto": "Pueder ser Nitrógeno (N) o Fósforo (P)"}, 
+    {"id": 112, "final": true, "texto": "Deficiencia de Magnesio (Mg)"}, 
+    {"id": 311, "final": true, "texto": "Deficiencia de Manganeso (Mn)"}, 
+    {"id": 312, "final": true, "texto": "Deficiencia de Hierro (Fe)"}, 
+    {"id": 321, "final": true, "texto": "Deficiencia de Boro (B)"}, 
+    {"id": 322, "final": true, "texto": "Deficiencia de Calcio (Ca)"}, 
+    {"id": 331, "final": true, "texto": "Deficiencia de Cobre (Cu)"},
+    {"id": 332, "final": true, "texto": "Deficiencia de Zinc (Zn)"},
+    {"id": 1111, "final": true, "texto": "Deficiencia de Nitrógeno (N)"}, 
+    {"id": 1112, "final": true, "texto": "Deficiencia de Fósforo (P)"}
+]

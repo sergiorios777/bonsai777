@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clave de identificación de deficiencia de nutrientes</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <header>
+            <div class="row">
+                <nav>
+                    <div class="nav-wrapper brown darken-1">
+                        <a href="#!" class="brand-logo" style="margin-left: 10px;">Aplicaciones de utilidad</a>
+                        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="https://www.bonsai777.com"><i class="material-icons left">home</i>Inicio</a></li>
+                            <li hidden><a href="">Precios <span class="new badge">1</span></a></li>
+                            <li><a href="#">Acerca de Bonsai777</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <ul class="sidenav" id="nav-mobile">
+                    <li><a href="http://www.bonsai777.com"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li hidden><a href="">Precios <span class="new badge">1</span></a></li>
+                    <li><a href="#">Acerca de Bonsai777</a></li>
+                  </ul>
+            </div>
+        </header>
+    </div>
+    <div class="row">
+        <article>
+            <header>
+                <h4>Clave de deficiencia de nutrientes (ejemplo genérico):</h4>
+                <h6><span>Autor:</span>Dr. Brian A. Krug</h6>
+                <h6><span>Institución: </span>Universidad de New Hampshire Cooperative Extension</h6>
+                <br>
+            </header>
+            <div class="divider"></div>
+            <div id="key">
+                <div class="input-field">
+                    <select name="sintomas1n" id="sintomas1n">
+                        <option value="">---Seleccione un síntoma de primer nivel---</option>
+                    </select>
+                    <label for="sintomas1n">Síntomas de primer nivel:</label>
+                </div>
+                <div class="input-field">
+                    <select name="sintomas2n" id="sintomas2n">
+                        <option value="">---Seleccione un síntoma de segundo nivel---</option>
+                    </select>
+                    <label for="sintomas2n">Síntomas de segundo nivel:</label>
+                </div>
+                <div class="input-field">
+                    <select name="sintomas3n" id="sintomas3n">
+                        <option value="">---Seleccione un síntoma de tercer nivel---</option>
+                    </select>
+                    <label for="sintomas3n">Síntomas de tercer nivel:</label>
+                </div>
+                <div class="input-field">
+                    <select name="sintomas4n" id="sintomas4n">
+                        <option value="">---Seleccione un síntoma de cuarto nivel---</option>
+                    </select>
+                    <label for="sintomas4n">Síntomas de cuarto nivel:</label>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div>
+                <h3>Resultado:</h3>
+                <p id="resultado"></p>
+            </div>
+            <div id="imagenes"></div>
+        </article>
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+        <footer>
+            <p><a href="https://www.bonsai777.com">Inicio</a></p>
+        </footer>
+    </div>
+</div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Funciones de carga-->
+    <script src="js/clave.js"></script>
+</body>
+</html>

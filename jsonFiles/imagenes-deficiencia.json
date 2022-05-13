@@ -1,0 +1,266 @@
+[
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/N--tomate.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N)"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/P--tomate.jpg",
+        "titulo": "Deficiencia de Fósfoto (P)"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-tomate.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) tomate"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-citricos.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) cítricos"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-citricos-2.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) cítricos"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-hojas-plantas.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg)"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-maiz.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) maíz"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-repollo.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) repollo"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 112,
+        "n4": 0,
+        "url": "imagenes/Mg-soja.jpg",
+        "titulo": "Deficiencia de Magnesio (Mg) soja"
+    },
+    {
+        "n1": 1,
+        "n2": 12,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/K--tomate.jpg",
+        "titulo": "Deficiencia de Potasio (K)"
+    },
+    {
+        "n1": 1,
+        "n2": 12,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/K--citricos.jpg",
+        "titulo": "Deficiencia de Potasio (K) cítricos"
+    },
+    {
+        "n1": 1,
+        "n2": 12,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/K--citricos-2.jpg",
+        "titulo": "Deficiencia de Potasio (K) cítricos"
+    },
+    {
+        "n1": 1,
+        "n2": 12,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/K--leguminosa.jpg",
+        "titulo": "Deficiencia de Potasio (K) leguminosa"
+    },
+    {
+        "n1": 1,
+        "n2": 12,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/K--platano.jpg",
+        "titulo": "Deficiencia de Potasio (K) plátano"
+    },
+    {
+        "n1": 2,
+        "n2": 22,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/Mo-citricos.jpg",
+        "titulo": "Deficiencia de Molibdeno (Mo) cítricos"
+    },
+    {
+        "n1": 2,
+        "n2": 22,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/Mo-repollo.jpg",
+        "titulo": "Deficiencia de Molibdeno (Mo) Repollo"
+    },
+    {
+        "n1": 2,
+        "n2": 22,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/Mo-tomate.jpg",
+        "titulo": "Deficiencia de Molibdeno (Mo) tomate"
+    },
+    {
+        "n1": 2,
+        "n2": 21,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/S--citricos.jpg",
+        "titulo": "Deficiencia de Azufre (S) cítricos"
+    },
+    {
+        "n1": 2,
+        "n2": 21,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/S--maiz.jpg",
+        "titulo": "Deficiencia de Azufre (S) maiz"
+    },
+    {
+        "n1": 2,
+        "n2": 21,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/S--planta-desconocida.jpg",
+        "titulo": "Deficiencia de Azufre (S) en planta no identificada"
+    },
+    {
+        "n1": 2,
+        "n2": 22,
+        "n3": 0,
+        "n4": 0,
+        "url": "imagenes/Mo-zapallo.jpg",
+        "titulo": "Deficiencia de Molibdeno (Mo) zapallo"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 322,
+        "n4": 0,
+        "url": "imagenes/Ca-frutos-tomate.jpg",
+        "titulo": "Deficiencia de Calcio (Ca) fruto tomate"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 322,
+        "n4": 0,
+        "url": "imagenes/Ca-hojas.jpg",
+        "titulo": "Deficiencia de Calcio (Ca) hojas"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 322,
+        "n4": 0,
+        "url": "imagenes/Ca-hojas-2.jpg",
+        "titulo": "Deficiencia de Calcio (Ca) hojas"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 322,
+        "n4": 0,
+        "url": "imagenes/Ca-lechuga.jpg",
+        "titulo": "Deficiencia de Calcio (Ca) lechuga"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 322,
+        "n4": 0,
+        "url": "imagenes/Ca-repollo.png",
+        "titulo": "Deficiencia de Calcio (Ca) repollo"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--coles-2.jpg",
+        "titulo": "Deficiencia de Boro (B) coles"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--hoja-pepino.jpg",
+        "titulo": "Deficiencia de Boro (B) hoja pepino"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--maiz-fruto.jpg",
+        "titulo": "Deficiencia de Boro (B) fruto maiz"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--maiz-hoja.jpg",
+        "titulo": "Deficiencia de Boro (B) hoja de maiz"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--platano.jpg",
+        "titulo": "Deficiencia de Boro (B) plátano"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--platano-2.jpg",
+        "titulo": "Deficiencia de Boro (B) plátano"
+    },
+    {
+        "n1": 3,
+        "n2": 32,
+        "n3": 321,
+        "n4": 0,
+        "url": "imagenes/B--platano-3.jpg",
+        "titulo": "Deficiencia de Boro (B) plátano"
+    }
+]

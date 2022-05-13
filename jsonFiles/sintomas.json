@@ -1,0 +1,22 @@
+[
+    {"nivel": 1, "padre": 0, "id": 1, "texto": "1 Síntomas en la base de la planta"}, 
+    {"nivel": 1, "padre": 0, "id": 2, "texto": "2 Síntomas cruza la planta entera (mitad)"}, 
+    {"nivel": 1, "padre": 0, "id": 3, "texto": "3 Síntomas en la parte alta de la planta"},
+    {"nivel": 2, "padre": 1, "id": 11, "texto": "11 Clorosis"}, 
+    {"nivel": 2, "padre": 1, "id": 12, "texto": "12 Necrosis"}, 
+    {"nivel": 2, "padre": 2, "id": 21, "texto": "21 Clorosis uniforme / Flores descoloridas"}, 
+    {"nivel": 2, "padre": 2, "id": 22, "texto": "22 Márgenes de la hoja cloróticas seguida por una necrosis rápida"}, 
+    {"nivel": 2, "padre": 3, "id": 31, "texto": "31 Clorosis"}, 
+    {"nivel": 2, "padre": 3, "id": 32, "texto": "32 Hojas jóveles afectadas con clorosis y distorsión"}, 
+    {"nivel": 2, "padre": 3, "id": 33, "texto": "33 Hojas jóvenes y maduras afectadas con enrollamiento de la hoja y necrosis"},
+    {"nivel": 3, "padre": 11, "id": 111, "texto": "111 Uniforme"}, 
+    {"nivel": 3, "padre": 11, "id": 112, "texto": "112 Intervenal"}, 
+    {"nivel": 3, "padre": 31, "id": 311, "texto": "311 Clorosis intervenal con manchas bronceadas"}, 
+    {"nivel": 3, "padre": 31, "id": 312, "texto": "312 Clorosis intervenal volviéndose hacia amarilla"}, 
+    {"nivel": 3, "padre": 32, "id": 321, "texto": "321 Aborto de yemas, entrenudos cortos, hojas gruesas"}, 
+    {"nivel": 3, "padre": 32, "id": 322, "texto": "322 Distorsión tornándose necrótica"}, 
+    {"nivel": 3, "padre": 33, "id": 331, "texto": "331 Flores más pequeñas y claras"},
+    {"nivel": 3, "padre": 33, "id": 332, "texto": "332 Hojas más pequeñas y entrenudos más cortos"},
+    {"nivel": 4, "padre": 111, "id": 1111, "texto": "1111 Floración temprana y/o abscisión foliar"}, 
+    {"nivel": 4, "padre": 111, "id": 1112, "texto": "1112 Follaje verde más profundo y/o pocas raíces más largas"}
+]
