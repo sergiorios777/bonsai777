@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +9,10 @@
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+.row {
+    margin-bottom: 10px;
 }
 
 .container h1 {
@@ -27,19 +31,66 @@
 }
 
 .container .caja-elementos .elemento {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 1px solid #aaa;
+    border-radius: 6px;
     font-size: 4rem;
     font-family: Acme;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .container .caja-elementos .elemento:hover {
     border: 1px solid #111;
-    background: #666;
     box-shadow: 2px 2px 2px #111;
-    color: white;
+}
+
+.container .caja-elementos .elemento p {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .caja-elementos .elemento:hover .nitrogeno {
+    background: darkgreen;
+    color: azure;
+}
+
+.container .caja-elementos .elemento:hover .fosforo {
+    background: firebrick;
+    color: antiquewhite;
+}
+
+.container .caja-elementos .elemento:hover .potasio {
+    background: khaki;
+    color: rgb(70, 70, 16);
+}
+
+.container .caja-elementos .elemento:hover .calcio {
+    background: floralwhite;
+    color: darkgoldenrod;
+}
+
+.container .sintomas {
+    font-family: Roboto;
+    color: #000;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px;
+}
+
+.container .sintomas h3 {
+    font-size: 2.1rem;
+    color:rgb(41, 47, 53);
+    margin-bottom: 12px;
+}
+
+.container .sintomas p {
+    margin-bottom: 8px;
 }
