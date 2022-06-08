@@ -12,9 +12,225 @@
         "n1": 1,
         "n2": 11,
         "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--aji-capsicum.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en ají",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--aji-capsicum-0.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en ají",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--cabbage.webp",
+        "titulo": "Deficiencia de Nitrógeno (N) en repollo",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--lettuce.png",
+        "titulo": "Deficiencia de Nitrógeno (N) en lechuga",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-0.png",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-1.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-2.JPG",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-3.png",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-4.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--maiz-5.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en maíz",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--platano-0.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en plátano",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--platano-1.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en plátano",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--platano-2.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en plátano",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--soya-0.jpeg",
+        "titulo": "Deficiencia de Nitrógeno (N) en soya",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1111,
+        "url": "imagenes/nitrogeno/N--soya-1.jpg",
+        "titulo": "Deficiencia de Nitrógeno (N) en soya",
+        "elemento": "N"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
         "n4": 1112,
         "url": "imagenes/P--tomate.jpg",
-        "titulo": "Deficiencia de Fósfoto (P)",
+        "titulo": "Deficiencia de Fósforo (P)",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--Brassica_repollo.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en repollo",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--col-repollo.webp",
+        "titulo": "Deficiencia de Fósforo (P) en repollo",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--maiz-hojas.jpeg",
+        "titulo": "Deficiencia de Fósforo (P) en maíz",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--maiz-hojas-2.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en maíz",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--platano.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en plátano",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--platano-1.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en plátano",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--tomate-0.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en tomate",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--tomate-1.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en tomate",
+        "elemento": "P"
+    },
+    {
+        "n1": 1,
+        "n2": 11,
+        "n3": 111,
+        "n4": 1112,
+        "url": "imagenes/fosforo/P--tomate-2.jpg",
+        "titulo": "Deficiencia de Fósforo (P) en tomate",
         "elemento": "P"
     },
     {

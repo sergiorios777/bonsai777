@@ -1,5 +1,8 @@
 let sintomas = document.querySelector('.sintomas');
 let elementos = document.querySelectorAll('.elemento p');
+let btnPrev = document.querySelector('.slide__prev');
+let btnNext = document.querySelector('.slide__next');
+let cajaSlides = document.querySelector('.slides');
 
 elementos.forEach((elem)=> {
     elem.addEventListener('click', () => {
@@ -9,6 +12,10 @@ elementos.forEach((elem)=> {
             mostrarImagenes(elem.textContent);
         }
     });
+});
+
+btnPrev.addEventListener('click', () => {
+    
 });
 
 function mostrarImagenes(elemento)
