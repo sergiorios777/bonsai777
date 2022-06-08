@@ -1,0 +1,88 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="modR_OnRibbonLoad">
+    <commands>
+       <command idMso="FileExit" enabled="true"/>
+       <command idMso="ApplicationOptionsDialog" enabled = "true"/>
+    </commands>
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="TabInicio" visible="true" label="Inicio">
+                <group id="GruInicio" visible="true" label="Inicio">
+                    <button id="cmdInicio" enabled="true" tag="frmIngresar" imageMso="AdpPrimaryKey" size="large" label="Iniciar Sesión" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdFinSesion" enabled="true" imageMso="Lock" size="large" label="Finalizar Sesión" onAction="procEjecutarComandos"/>
+                </group>
+                <group id="GruAcceso" getVisible="getVisibleGruCallback" label="Acceso">
+                    <button id="cmdUsuariosAplicativo" getEnabled="getEnabledCallback" imageMso="NewDistributionList" size="large" label="Usuarios" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdPermisos" getEnabled="getEnabledCallback" imageMso="DatabasePermissionsMenu" size="large" label="Permisos" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdModulos" getEnabled="getEnabledCallback" imageMso="CreateModule" size="large" label="Módulos" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdSubModulos" getEnabled="getEnabledCallback" imageMso="WindowNew" size="large" label="Sub Módulos" onAction="ProcAbrirFormulario" visible="false"/>
+                </group>
+                <group id="GruConfiguracion" getVisible="getVisibleGruCallback" label="Configuración">
+                    <button id="cmdConfiguracion" getEnabled="getEnabledCallback" imageMso="SetStartPage" size="large" label="Info. Entidad" onAction="FichaConfiguracion"/>
+                    <button id="cmdDirecciones" getEnabled="getEnabledCallback" imageMso="SetLanguage" size="large" label="Direcciones" onAction="FichaConfiguracion" visible="false"/>
+                    <button id="cmdEtiquetas" getEnabled="getEnabledCallback" imageMso="FormControlLabel" size="large" label="Etiquetas" onAction="FichaConfiguracion" visible="false"/>
+                </group>
+                <group id="GruSalir" visible="true" label="Salir Sistema">
+                    <control idMso="FileExit" enabled="true" imageMso="MasterViewClose" size="large" label="Salir"/>
+                </group>
+            </tab>
+            <tab id="TabAplicativo" visible="true" label="Aplicativo">
+                <group id="GruContratos" getVisible="getVisibleGruCallback" label="Contratos">
+                    <button id="cmdRegProcesos" getEnabled="getEnabledCallback" imageMso="FileMarkAsFinal" size="large" label="Procesos" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdRegContratos" getEnabled="getEnabledCallback" imageMso="SourceControlOptions" size="large" label="Contratos" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruLogistica" getVisible="getVisibleGruCallback" label="Logística">
+                    <button id="cmdOC" getEnabled="getEnabledCallback" imageMso="AccessNavigationOptions" size="large" label="Órden Compra" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdOS" getEnabled="getEnabledCallback" imageMso="FileCreateDocumentWorkspace" size="large" label="Órden Servicio" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdNEA" getEnabled="getEnabledCallback" imageMso="ReviewShowMarkupMenu" size="large" label="NEA" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdOrdenesMarco" getEnabled="getEnabledCallback" imageMso="WindowSwitchWindowsMenuExcel" size="large" label="Órdenes Marco" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdRequerimiento" getEnabled="getEnabledCallback" imageMso="CreateForm" size="large" label="Requerimientos" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdContratos" getEnabled="getEnabledCallback" imageMso="FrontPageToggleBookmark" size="large" label="Contratos" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdInformesLogistica" getEnabled="getEnabledCallback" imageMso="ReportsProject" size="large" label="Informes" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruAlmacen" getVisible="getVisibleGruCallback" label="Almacén">
+                    <button id="cmdRegIngAlmacen" getEnabled="getEnabledCallback" imageMso="CrossReferenceInsert" size="large" label="Registro ingreso" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdRegPecosas" getEnabled="getEnabledCallback" imageMso="ChartResetToMatchStyle" size="large" label="Pecosas" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruPersonal" getVisible="getVisibleGruCallback" label="Personal">
+                    <button id="cmdPersonal" getEnabled="getEnabledCallback" imageMso="AddOrRemoveAttendees" size="large" label="Personal" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdPlanillaDeHaberes" getEnabled="getEnabledCallback" imageMso="CreateReportBlankReport" size="large" label="Planilla haberes" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdPV" getEnabled="getEnabledCallback" imageMso="CitationInsert" size="large" label="Planilla Viáticos" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruPresupuesto" getVisible="getVisibleGruCallback" label="Presupuesto">
+                    <button id="cmdClasificacion" getEnabled="getEnabledCallback" imageMso="ConditionalFormattingHighlightBetween" size="large" label="Clasificación" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruRentas" getVisible="getVisibleGruCallback" label="Rentas">
+                    <button id="cmdRentas" getEnabled="getEnabledCallback" imageMso="ShowNotesPage" size="large" label="Recaudación" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdDepositoBancario" getEnabled="getEnabledCallback" imageMso="CalculatedCurrency" size="large" label="Depósitos Bancarios" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdInformesDeCaja" getEnabled="getEnabledCallback" imageMso="ReportsProject" size="large" label="Informes de rentas" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdAutoavaluo" getEnabled="getEnabledCallback" imageMso="ApplyCurrencyFormat" size="large" label="Impuesto Predial" onAction="ProcAbrirFormulario"/>
+                </group>
+            </tab>
+            <tab id="TabRecaudacion" visible="true" label="Recaudación">
+                <group id="GruRentas" getVisible="getVisibleGruCallback" label="Rentas">
+                    <button id="cmdRentas" getEnabled="getEnabledCallback" imageMso="ShowNotesPage" size="large" label="Recaudación" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdDepositoBancario" getEnabled="getEnabledCallback" imageMso="CalculatedCurrency" size="large" label="Depósitos Bancarios" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdInformesDeCaja" getEnabled="getEnabledCallback" imageMso="ReportsProject" size="large" label="Informes de rentas" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdAutoavaluo" getEnabled="getEnabledCallback" imageMso="ApplyCurrencyFormat" size="large" label="Impuesto Predial" onAction="ProcAbrirFormulario" visible="false"/>
+                </group>
+            </tab>
+            <tab id="TabMantenimiento" visible="true" label="Mantenimiento">
+                <group id="GruCatalogos" getVisible="getVisibleGruCallback" label="Catálogos">
+                    <button id="cmdCargos" getEnabled="getEnabledCallback" imageMso="OrganizationChartSelectLevel" size="large" label="Cargos" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdClasificadores" getEnabled="getEnabledCallback" imageMso="PivotTableCalculateChanges" size="large" label="Clasificadores" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdConceptosDeCaja" getEnabled="getEnabledCallback" imageMso="ViewWorkShow" size="large" label="Conceptos Caja" onAction="ProcAbrirFormulario"/>
+                    <button id="cmdInsumos" getEnabled="getEnabledCallback" imageMso="PageMenu" size="large" label="Insumos" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdMarcas" getEnabled="getEnabledCallback" imageMso="AllCategories" size="large" label="Marcas" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdMetas" getEnabled="getEnabledCallback" imageMso="NewChessTool" size="large" label="Metas" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdPersonas" getEnabled="getEnabledCallback" imageMso="ResourcesAddFromProjectServer" size="large" label="Personas" onAction="ProcAbrirFormulario" visible="true"/>
+                    <button id="cmdProveedores" getEnabled="getEnabledCallback" imageMso="ResourceAllViewsGalleryStandard" size="large" label="Proveedores" onAction="ProcAbrirFormulario" visible="false"/>
+                    <button id="cmdUsuarias" getEnabled="getEnabledCallback" imageMso="OpenMyDepartmentCalendar" size="large" label="Unidades Orgánicas" onAction="ProcAbrirFormulario"/>
+                </group>
+                <group id="GruBD" visible="true" label="Base de Datos">
+                    <control idMso="FileCompactAndRepairDatabase" enabled="true" size="large" label="Compactar y Reparar"/>
+                    <button id="cmdBackupBD" enabled="false" imageMso="CreateForm" size="large" label="Backup" onAction="CintaMantenimiento"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
